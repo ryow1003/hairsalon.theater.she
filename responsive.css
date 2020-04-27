@@ -75,6 +75,9 @@
 }
 
 @media(max-width:415px){
+  .container{
+    width:414px;
+  }
   .header-left h1{
     font-size: 30px;
     margin-top: 50px;
@@ -106,7 +109,7 @@
   }
 
   .children p{
-    font-size: 3px;
+    font-size: 10px;
   }
   .heading{
     padding-top:0px;
@@ -120,16 +123,17 @@
     flex-direction: column;
   }
   .lesson{
-    margin-left: 60px;
+    float:left;
+    width:384px;
     padding-right: 0;
     margin-top: 20px;
   }
   img{
-    height:250px;
-    width:250px;
+    height:200px;
+    width:200px;
   }
   .txt-contents{
-    width:250px;
+    width:200px;
   }
   .image{
     height:100px;
@@ -139,6 +143,9 @@
   }
   .message-wrapper{
     height:100px;
+  }
+  .introduce{
+    font-size: 5px;
   }
   .kind li{
     margin-bottom: 0;
@@ -152,4 +159,11 @@
   .left{
     margin-left: -30px;
   }
+  .nav{
+    font-size: 14px;
+  }
+
+}
+@media(max-width:375px){
+
 }
