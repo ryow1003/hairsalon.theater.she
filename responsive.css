@@ -75,6 +75,12 @@
 }
 
 @media(max-width:415px){
+  body{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    border:none;
+  }
   .container{
     width:414px;
   }
@@ -86,7 +92,6 @@
     height:30px;
     width:120px;
     margin-top: 70px;
-    margin-right: 0;
   }
   .header-right a{
     font-size: 10px;
@@ -162,8 +167,5 @@
   .nav{
     font-size: 14px;
   }
-
-}
-@media(max-width:375px){
 
 }
